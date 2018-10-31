@@ -1,0 +1,37 @@
+.Products{
+    width: 100%;
+    padding: 10px;
+    height: 690px;
+    display: inline-block;
+    overflow-y: auto;
+    margin-left: 3.5%; 
+}
+.Product{
+    height: 330px;
+    padding: 10px;
+    border: 1px solid #cbcbcb;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px 0px #cbcbcb;
+    margin-bottom: 15px;
+    width: 30%;
+    float: left;
+    margin-right: 15px;
+}
+.Product .title{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+}
+.Product .image{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+.Product .image img{
+    height: 200px;
+    margin: auto;
+}
+.Product .price{
+    
+    padding: 5px;
+}
